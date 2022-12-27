@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar {
+    background: url('./assets/images/bg-sidebar-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sidebarm {
+    background: url('./assets/images/bg-sidebar-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gcc {
+    grid-template-columns: 320px auto;
+}
+.transitionn {
+    transition: all;
+    transition-duration: 0.5s;
+}
